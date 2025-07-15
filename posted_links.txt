@@ -1,6 +1,8 @@
 https://techcrunch.com/2025/07/15/ai-coding-tools-are-shifting-to-a-surprising-place-the-terminal/
+https://techcrunch.com/2025/07/15/av-startup-pronto-ai-acquires-off-road-autonomous-vehicle-rival-safeai/
 https://techcrunch.com/2025/07/15/google-discover-adds-ai-summaries-threatening-publishers-with-further-traffic-declines/
 https://techcrunch.com/2025/07/15/lucid-motors-will-roll-out-hands-free-highway-driving-this-month/
+https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/
 https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/
 https://techcrunch.com/2025/07/15/research-leaders-urge-tech-industry-to-monitor-ais-thoughts/
 https://techcrunch.com/2025/07/15/tech-layoffs-2025-list/
@@ -13,6 +15,7 @@ https://www.bbc.com/news/articles/c5yg7eg8w98o
 https://www.bbc.com/news/articles/c8j1vzngdjpo
 https://www.bbc.com/news/articles/c93969ln7zwo
 https://www.bbc.com/news/articles/cvg8zy78787o
+https://www.theverge.com/21302051/best-apple-airpods-deals
 https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version
 https://www.theverge.com/google/707041/google-chromeos-android-os-merger-questions-phones-chromebooks-laptops-tablets
 https://www.theverge.com/news/706967/8bitdo-pro-3-wireless-bluetooth-controller-tmr-swappable-buttons
@@ -21,6 +24,7 @@ https://www.theverge.com/news/707287/form-smart-swim-2-goggles-heart-rate-compas
 https://www.theverge.com/news/707347/uber-baidu-robotaxi-deal-autonomous-ridehail
 https://www.theverge.com/news/707353/google-pixel-10-pro-fold-10-water-dust-resistance-rumor
 https://www.theverge.com/news/707382/ugreen-magflow-magnetic-power-bank-wireless-charging-qi
+https://www.theverge.com/news/707586/analogue-3d-4k-n64-delay-august-2025
 https://www.theverge.com/news/707589/sony-rx1r-iii-digital-compact-pocket-camera
 https://www.theverge.com/politics/707098/maga-jeffrey-epstein-influencer-trump-bondi
 https://www.theverge.com/x-ai/707442/grok-antisemitic-hitler-elon-musk-opinion-reprogrammed
