@@ -2,6 +2,7 @@ https://techcrunch.com/2025/07/15/ai-coding-tools-are-shifting-to-a-surprising-p
 https://techcrunch.com/2025/07/15/av-startup-pronto-ai-acquires-off-road-autonomous-vehicle-rival-safeai/
 https://techcrunch.com/2025/07/15/google-discover-adds-ai-summaries-threatening-publishers-with-further-traffic-declines/
 https://techcrunch.com/2025/07/15/lucid-motors-will-roll-out-hands-free-highway-driving-this-month/
+https://techcrunch.com/2025/07/15/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/
 https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/
 https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/
 https://techcrunch.com/2025/07/15/research-leaders-urge-tech-industry-to-monitor-ais-thoughts/
@@ -14,6 +15,7 @@ https://www.bbc.com/news/articles/c1e02q12z32o
 https://www.bbc.com/news/articles/c5yg7eg8w98o
 https://www.bbc.com/news/articles/c8j1vzngdjpo
 https://www.bbc.com/news/articles/c93969ln7zwo
+https://www.bbc.com/news/articles/c9w12kdg5zko
 https://www.bbc.com/news/articles/cvg8zy78787o
 https://www.theverge.com/21302051/best-apple-airpods-deals
 https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals
@@ -28,6 +30,7 @@ https://www.theverge.com/news/707382/ugreen-magflow-magnetic-power-bank-wireless
 https://www.theverge.com/news/707586/analogue-3d-4k-n64-delay-august-2025
 https://www.theverge.com/news/707589/sony-rx1r-iii-digital-compact-pocket-camera
 https://www.theverge.com/news/707699/adidas-laces-climacool-shoe-3d-printed
+https://www.theverge.com/news/707739/xbox-stream-your-own-game-pc-app
 https://www.theverge.com/politics/707098/maga-jeffrey-epstein-influencer-trump-bondi
 https://www.theverge.com/x-ai/707442/grok-antisemitic-hitler-elon-musk-opinion-reprogrammed
 https://www.youtube.com/watch?v=-NNCca97v98
