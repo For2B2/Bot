@@ -1,5 +1,6 @@
 https://techcrunch.com/2025/07/15/a-former-openai-engineer-describes-what-its-really-like-to-work-there/
 https://techcrunch.com/2025/07/15/ai-coding-tools-are-shifting-to-a-surprising-place-the-terminal/
+https://techcrunch.com/2025/07/15/amazons-kuiper-satellites-to-get-boost-from-rival-spacex/
 https://techcrunch.com/2025/07/15/av-startup-pronto-ai-acquires-off-road-autonomous-vehicle-rival-safeai/
 https://techcrunch.com/2025/07/15/google-discover-adds-ai-summaries-threatening-publishers-with-further-traffic-declines/
 https://techcrunch.com/2025/07/15/lucid-motors-will-roll-out-hands-free-highway-driving-this-month/
@@ -8,6 +9,7 @@ https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12
 https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/
 https://techcrunch.com/2025/07/15/research-leaders-urge-tech-industry-to-monitor-ais-thoughts/
 https://techcrunch.com/2025/07/15/tech-layoffs-2025-list/
+https://techcrunch.com/2025/07/15/the-chainsmokers-mantis-ventures-closes-100m-third-fund/
 https://techcrunch.com/2025/07/15/the-rights-to-fyre-festival-sold-on-ebay-for-245k/
 https://techcrunch.com/2025/07/15/ubers-latest-robotaxi-partner-is-chinas-baidu/
 https://techcrunch.com/2025/07/15/ukrainian-hackers-claim-to-have-destroyed-servers-of-russian-drone-maker/
@@ -22,6 +24,7 @@ https://www.bbc.com/news/articles/c9w12kdg5zko
 https://www.bbc.com/news/articles/cvg8zy78787o
 https://www.theverge.com/21302051/best-apple-airpods-deals
 https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals
+https://www.theverge.com/23037217/best-apple-watch-series-se-ultra
 https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version
 https://www.theverge.com/google/707041/google-chromeos-android-os-merger-questions-phones-chromebooks-laptops-tablets
 https://www.theverge.com/news/706967/8bitdo-pro-3-wireless-bluetooth-controller-tmr-swappable-buttons
