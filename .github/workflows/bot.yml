@@ -2,8 +2,7 @@ name: Telegram Bot News Poster
 
 on:
   schedule:
-    # Runs every 30 minutes. You can change this cron schedule.
-    # See https://crontab.guru/ for help.
+    # Runs every 5 minutes. (15 mins is recommended for stability)
     - cron: '*/5 * * * *'
   workflow_dispatch:
     # Allows you to run this workflow manually from the Actions tab
@@ -11,6 +10,12 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+
+    # --- ADD THIS PERMISSIONS BLOCK ---
+    permissions:
+      contents: write
+    # ------------------------------------
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
