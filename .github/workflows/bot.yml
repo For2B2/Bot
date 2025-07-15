@@ -3,7 +3,7 @@ name: Telegram Bot News Poster
 on:
   schedule:
     # Runs every 5 minutes. (15 mins is recommended for stability)
-    - cron: '*/05 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
     # Allows you to run this workflow manually from the Actions tab
 
