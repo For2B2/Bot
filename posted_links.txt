@@ -19,11 +19,13 @@ https://techcrunch.com/2025/07/16/call-of-duty-cheaters-complain-after-activisio
 https://techcrunch.com/2025/07/16/chatgpt-everything-to-know-about-the-ai-chatbot/
 https://techcrunch.com/2025/07/16/chinese-authorities-are-using-a-new-tool-to-hack-seized-phones-and-extract-data/
 https://techcrunch.com/2025/07/16/ex-waymo-engineers-launch-bedrock-robotics-with-80m-to-automate-construction/
+https://techcrunch.com/2025/07/16/gm-teams-up-with-redwood-materials-to-power-data-centers-with-ev-batteries/
 https://techcrunch.com/2025/07/16/gmc-hummer-ev-outsold-the-tesla-cybertruck-last-quarter/
 https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/
 https://techcrunch.com/2025/07/16/meet-the-cement-transport-ship-that-makes-cement-ingredients-while-sailing/
 https://techcrunch.com/2025/07/16/meta-reportedly-scores-two-more-high-profile-openai-researchers/
 https://techcrunch.com/2025/07/16/nvidias-resumption-of-h20-chip-sales-related-to-rare-earth-element-trade-talks/
+https://techcrunch.com/2025/07/16/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai/
 https://techcrunch.com/2025/07/16/rex-salisburys-cambrian-ventures-raises-new-fund-bucking-fintech-slowdown/
 https://techcrunch.com/2025/07/16/tech-layoffs-2025-list/
 https://techcrunch.com/2025/07/16/uk-retail-giant-co-op-confirms-hackers-stole-all-6-5-million-customer-records/
@@ -45,6 +47,7 @@ https://www.theverge.com/21302051/best-apple-airpods-deals
 https://www.theverge.com/22371561/best-4k-tv-deals-sale-lg-samsung-sony-tcl
 https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals
 https://www.theverge.com/23037217/best-apple-watch-series-se-ultra
+https://www.theverge.com/ai-artificial-intelligence/708482/i-spent-24-hours-flirting-with-elon-musks-ai-girlfriend
 https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version
 https://www.theverge.com/google/707041/google-chromeos-android-os-merger-questions-phones-chromebooks-laptops-tablets
 https://www.theverge.com/music/701539/how-knox-morris-turned-tiktok-virality-into-a-national-tour
@@ -66,7 +69,9 @@ https://www.theverge.com/news/708279/tesla-model-3-plus-model-yl-china-price-war
 https://www.theverge.com/news/708363/google-pixel-10-made-by-google-event-date
 https://www.theverge.com/news/708377/scale-ai-layoffs-14-percent
 https://www.theverge.com/news/708381/cyberpunk-2077-update-2-3-autodrive-vrr-consoles-patch
+https://www.theverge.com/news/708481/microsoft-teams-mercedes-benz-integration-in-car-camera-support
 https://www.theverge.com/nintendo/707449/donkey-kong-bananza-switch-2-nintendo-design-open-world
+https://www.theverge.com/nintendo/708494/nintendo-the-legend-of-zelda-movie-leads-stars-long-time
 https://www.theverge.com/politics/707098/maga-jeffrey-epstein-influencer-trump-bondi
 https://www.theverge.com/tech/704616/apple-earpods-favorites
 https://www.theverge.com/tech/708267/apple-macbook-air-m2-one-plus-buds-4-deal-sale
