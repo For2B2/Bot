@@ -15,12 +15,15 @@ https://techcrunch.com/2025/07/15/ubers-latest-robotaxi-partner-is-chinas-baidu/
 https://techcrunch.com/2025/07/15/ukrainian-hackers-claim-to-have-destroyed-servers-of-russian-drone-maker/
 https://techcrunch.com/2025/07/15/us-army-soldier-pleads-guilty-to-hacking-telcos-and-extortion/
 https://techcrunch.com/2025/07/15/venture-gets-a-rare-native-american-led-fund-in-betsy-fores-velveteen-ventures/
+https://techcrunch.com/2025/07/16/call-of-duty-cheaters-complain-after-activision-launches-new-wave-of-mass-bans/
 https://techcrunch.com/2025/07/16/chatgpt-everything-to-know-about-the-ai-chatbot/
 https://techcrunch.com/2025/07/16/chinese-authorities-are-using-a-new-tool-to-hack-seized-phones-and-extract-data/
 https://techcrunch.com/2025/07/16/ex-waymo-engineers-launch-bedrock-robotics-with-80m-to-automate-construction/
+https://techcrunch.com/2025/07/16/gmc-hummer-ev-outsold-the-tesla-cybertruck-last-quarter/
 https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/
 https://techcrunch.com/2025/07/16/meet-the-cement-transport-ship-that-makes-cement-ingredients-while-sailing/
 https://techcrunch.com/2025/07/16/meta-reportedly-scores-two-more-high-profile-openai-researchers/
+https://techcrunch.com/2025/07/16/nvidias-resumption-of-h20-chip-sales-related-to-rare-earth-element-trade-talks/
 https://techcrunch.com/2025/07/16/rex-salisburys-cambrian-ventures-raises-new-fund-bucking-fintech-slowdown/
 https://techcrunch.com/2025/07/16/tech-layoffs-2025-list/
 https://techcrunch.com/2025/07/16/uk-retail-giant-co-op-confirms-hackers-stole-all-6-5-million-customer-records/
@@ -37,7 +40,9 @@ https://www.bbc.com/news/articles/c98w2e9leywo
 https://www.bbc.com/news/articles/c9w12kdg5zko
 https://www.bbc.com/news/articles/cql0ple066po
 https://www.bbc.com/news/articles/cvg8zy78787o
+https://www.bbc.com/news/articles/cy8k2nd7e9no
 https://www.theverge.com/21302051/best-apple-airpods-deals
+https://www.theverge.com/22371561/best-4k-tv-deals-sale-lg-samsung-sony-tcl
 https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals
 https://www.theverge.com/23037217/best-apple-watch-series-se-ultra
 https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version
@@ -59,6 +64,7 @@ https://www.theverge.com/news/708202/razer-core-x-v2-egpu-price-thunderbolt-5
 https://www.theverge.com/news/708231/one-plus-2-in-1-supervooc-usb-cable-charger-smartphone-smartwatch
 https://www.theverge.com/news/708279/tesla-model-3-plus-model-yl-china-price-war
 https://www.theverge.com/news/708363/google-pixel-10-made-by-google-event-date
+https://www.theverge.com/news/708377/scale-ai-layoffs-14-percent
 https://www.theverge.com/news/708381/cyberpunk-2077-update-2-3-autodrive-vrr-consoles-patch
 https://www.theverge.com/nintendo/707449/donkey-kong-bananza-switch-2-nintendo-design-open-world
 https://www.theverge.com/politics/707098/maga-jeffrey-epstein-influencer-trump-bondi
