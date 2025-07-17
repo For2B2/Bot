@@ -9,6 +9,7 @@ https://digiato.com/artificial-intelligence/meta-hires-two-more-high-profile-ope
 https://digiato.com/artificial-intelligence/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai
 https://digiato.com/car-news/car-front-brake-light-innovative-solution-reduce-traffic-accidents
 https://digiato.com/car-news/honda-prelude-near-production-prototype-unveiled
+https://digiato.com/car-news/meet-renault-rafale-presidential
 https://digiato.com/car-news/tesla-model-3-plus-model-yl-china-price-war
 https://digiato.com/computers-hardware/a1-5-330-amd-goes-official
 https://digiato.com/gadgets/google-pixel-watch-4-will-reportedly-use-same-old-chipset
@@ -23,6 +24,7 @@ https://digiato.com/iran-technology-news/selling-gasoline-mixed-with-water-presi
 https://digiato.com/iran-technology-news/tether-risk-for-iranian-users
 https://digiato.com/mobile/google-announces-pixel-10-launch-event
 https://digiato.com/mobile/huawei-at-the-top-of-china-smartphone-market-q2-2025
+https://digiato.com/mobile/iphone-17-lineup-rumors-ranked
 https://digiato.com/mobile/samsung-galaxy-s25-fe-tab-s11-ultra-renders-leak
 https://digiato.com/mobile/samsungs-upcoming-tri-fold-phone-name-leaked
 https://digiato.com/security/china-uses-malware-to-spy-on-seized-phones
@@ -172,10 +174,14 @@ https://www.varzesh3.com/news/2139520/پرسپولیس-2-آلانیا-1-اول
 https://www.varzesh3.com/news/2139533/اعتراف-ویتال-هینن-بعد-از-شکست-مقابل-ایران
 https://www.varzesh3.com/news/2139534/شرط-انتقال-مهاجم-استقلال-به-لیگ-ازبکستان
 https://www.varzesh3.com/news/2139535/رونمایی-از-مجسمه-وینیسیوس-در-زادگاهش-عکس
+https://www.varzesh3.com/news/2139540/شکست-غافلگیرکننده-ایران-مقابل-پاکستان
+https://www.varzesh3.com/news/2139542/افسانه-هیپ-هاپ-مالک-باشگاه-انگلیسی-می-شود
+https://www.varzesh3.com/news/2139544/واکنش-جالب-fivb-ایران-برای-چین-زیادی-قوی-بود
 https://www.youtube.com/watch?v=-NNCca97v98
 https://www.youtube.com/watch?v=4KbrxIpQgkM
 https://www.youtube.com/watch?v=bMou1qUMHC4
 https://www.zoomit.ir/ai-articles/444169-truthscan-ai-image-detector-prevent-ai-fraud/
+https://www.zoomit.ir/ai-articles/444203-adobe-firefly-generate-sound-effects-audio-cues/
 https://www.zoomit.ir/business/444197-more-apple-chips-made-us/
 https://www.zoomit.ir/business/444207-uaes-deal-buy-nvidia-ai-chips-reportedly-hold/
 https://www.zoomit.ir/car/444161-porsche-millionth-macan/
@@ -183,6 +189,7 @@ https://www.zoomit.ir/car/444163-gmc-hummer-ev-outsold-tesla-cybertruck/
 https://www.zoomit.ir/car/444176-xiaomi-yu7-max-test-falls-official-claims/
 https://www.zoomit.ir/car/444195-gm-talks-new-camaro-possibility/
 https://www.zoomit.ir/car/444200-uber-lucid-nuro-robotaxi-deal-investment/
+https://www.zoomit.ir/car/444212-byd-fang-cheng-bao-tai-7-unveiled/
 https://www.zoomit.ir/cryptocurrency/444170-cryptocurrencies-could-next-bitcoin/
 https://www.zoomit.ir/cryptocurrency/444210-north-korean-hackers-record-crypto-thefts-2025/
 https://www.zoomit.ir/gaming/444160-ea-sports-fc-26-features/
@@ -194,6 +201,7 @@ https://www.zoomit.ir/mobile/444158-foldable-iphone-thickness-and-price-rumors/
 https://www.zoomit.ir/mobile/444159-nothing-phone-3-teardown-sturdy-repairable/
 https://www.zoomit.ir/mobile/444167-iphone-17-pro-anti-reflective-display/
 https://www.zoomit.ir/mobile/444199-tecno-phantom-ultimate-g-fold-concept/
+https://www.zoomit.ir/mobile/444213-iphone-17-pro-renders-orange-blue-colors/
 https://www.zoomit.ir/os/444140-half-windows-pcs-still-not-upgrade-windows-11/
 https://www.zoomit.ir/os/444190-galaxy-a33-a53-one-ui-8-update/
 https://www.zoomit.ir/pr/444178-bitpin-exchange-bitcoin/
