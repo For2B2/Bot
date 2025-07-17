@@ -158,14 +158,17 @@ def process_feeds():
                     hashtag = '#' + source_name.replace(' ', '_')
 
                     # --- Create the engaging message ---
-                    # THIS BLOCK IS NOW CORRECT
-                    message = (
-                        f"{intro}\n\n"
-                        f"<b>{title}</b>\n\n"  # <<< THE SYNTAX ERROR WAS HERE AND IS NOW FIXED
-                        f"{summary}\n\n"
-                        f"<a href='{link}'>{call_to_action}</a>\n\n"
-                        f"{hashtag}"
-                    )
+                    # THIS ENTIRE BLOCK HAS BEEN REWRITTEN FROM SCRATCH TO FIX THE SYNTAX ERROR.
+                    # It now uses a triple-quoted f-string, which is safer for multiline content.
+                    message = f"""{intro}
+
+<b>{title}</b>
+
+{summary}
+
+<a href='{link}'>{call_to_action}</a>
+
+{hashtag}"""
                     
                     send_to_telegram(message, photo_url=thumbnail_url)
                     posted_links.add(link)
