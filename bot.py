@@ -48,14 +48,14 @@ POSTED_LINKS_FILE = 'posted_links.txt'
 def load_posted_links():
     """Loads the set of already posted links from a file."""
     try:
-        with open(POSTED_LINKS_FILE, 'r') as f:
+        with open(POSTED_LINKS_FILE, 'r', encoding='utf-8') as f:
             return set(line.strip() for line in f)
     except FileNotFoundError:
         return set()
 
 def save_posted_links(links):
     """Saves the set of posted links back to the file."""
-    with open(POSTED_LINKS_FILE, 'w') as f:
+    with open(POSTED_LINKS_FILE, 'w', encoding='utf-8') as f:
         for link in sorted(links):
             f.write(link + '\n')
 
@@ -72,7 +72,6 @@ def get_thumbnail_url(entry):
         return entry.media_thumbnail[0]['url']
     # For many news RSS feeds (media:content)
     if 'media_content' in entry and entry.media_content:
-        # Ensure it's an image and not a video file
         for media in entry.media_content:
             if media.get('medium') == 'image' and 'url' in media:
                 return media['url']
@@ -109,10 +108,8 @@ def send_to_telegram(message, photo_url=None):
         response = requests.post(api_url, data=payload, timeout=20)
         response.raise_for_status()
         
-        # Check Telegram's response `ok` field
         if not response.json().get('ok'):
              print(f"Telegram API Error: {response.json().get('description')}")
-             # If sending photo failed, fall back to text message
              if photo_url:
                  print("Sending photo failed, falling back to text message.")
                  send_to_telegram(message, photo_url=None)
@@ -121,7 +118,6 @@ def send_to_telegram(message, photo_url=None):
 
     except requests.exceptions.RequestException as e:
         print(f"Network error sending to Telegram: {e}")
-        # If there was a network error with the photo, try again with text only
         if photo_url:
             print("Retrying as a text-only message due to network error.")
             send_to_telegram(message, photo_url=None)
@@ -144,30 +140,28 @@ def process_feeds():
                 if link not in posted_links:
                     print(f"  New post found: {entry.title}")
 
-                    # --- Get Post Details ---
                     title = entry.title
                     thumbnail_url = get_thumbnail_url(entry)
                     summary = ""
                     if 'summary' in entry:
                         summary = clean_html(entry.summary)
-                        if len(summary) > 300: # Shorter summary for captions
+                        if len(summary) > 300:
                            summary = summary[:300] + "..."
                     
-                    # --- Customize message based on type ---
                     if source_type == 'video':
                         intro = f"🎬 <b>ویدیوی جدید از {source_name}</b>"
                         call_to_action = "🔗 تماشای کامل ویدیو"
-                    else: # article
+                    else:
                         intro = f"📝 <b>مقاله جدید در {source_name}</b>"
                         call_to_action = "🔗 خواندن ادامه مطلب"
 
                     hashtag = '#' + source_name.replace(' ', '_')
 
                     # --- Create the engaging message ---
-                    # THIS BLOCK IS NOW FIXED
+                    # THIS BLOCK IS NOW CORRECT
                     message = (
                         f"{intro}\n\n"
-                        f"<b>{title}</b>\n\n"
+                        f"<b>{title}</b>\n\n"  # <<< THE SYNTAX ERROR WAS HERE AND IS NOW FIXED
                         f"{summary}\n\n"
                         f"<a href='{link}'>{call_to_action}</a>\n\n"
                         f"{hashtag}"
