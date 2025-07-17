@@ -18,6 +18,7 @@ https://digiato.com/iran-technology-news/selling-gasoline-mixed-with-water-presi
 https://digiato.com/iran-technology-news/tether-risk-for-iranian-users
 https://digiato.com/mobile/google-announces-pixel-10-launch-event
 https://digiato.com/mobile/huawei-at-the-top-of-china-smartphone-market-q2-2025
+https://digiato.com/mobile/samsungs-upcoming-tri-fold-phone-name-leaked
 https://digiato.com/security/china-uses-malware-to-spy-on-seized-phones
 https://digiato.com/tech/nothing-phone-3-durability-test
 https://techcrunch.com/2025/07/15/a-former-openai-engineer-describes-what-its-really-like-to-work-there/
@@ -71,6 +72,7 @@ https://www.bbc.com/news/articles/cql0ple066po
 https://www.bbc.com/news/articles/cvg8zy78787o
 https://www.bbc.com/news/articles/cy8k2nd7e9no
 https://www.bbc.com/persian/articles/c0rvdw7p0gko
+https://www.bbc.com/persian/articles/c1wp47gvpqno
 https://www.bbc.com/persian/articles/c5y7681r6zjo
 https://www.bbc.com/persian/articles/c75rgn44kwyo
 https://www.bbc.com/persian/articles/c75rkwl9z4ro
@@ -148,6 +150,9 @@ https://www.varzesh3.com/news/2139467/پنج-بازیکن-بسکتبال-زنا�
 https://www.varzesh3.com/news/2139481/ژاپن-۳-آرژانتین-۲-کامبک-جنون-آمیز-سامورایی
 https://www.varzesh3.com/news/2139482/لوا-در-لالیگا-می-درخشد-نه-در-لیگ-عربستان
 https://www.varzesh3.com/news/2139483/نه-ستاره-مورد-علاقه-آموریم-به-یونایتد-به-خاطر-یووه
+https://www.varzesh3.com/news/2139488/رسمی-وینگر-هلندی-به-ناپولی-پیوست
+https://www.varzesh3.com/news/2139489/فداکاری-امباپه-برای-خداحافظی-با-کاپیتان-رئال
+https://www.varzesh3.com/news/2139490/منتظر-معجزه-ی-ایران-در-جام-جهانی-نباشید
 https://www.youtube.com/watch?v=-NNCca97v98
 https://www.youtube.com/watch?v=4KbrxIpQgkM
 https://www.youtube.com/watch?v=bMou1qUMHC4
@@ -164,6 +169,7 @@ https://www.zoomit.ir/mobile/444159-nothing-phone-3-teardown-sturdy-repairable/
 https://www.zoomit.ir/mobile/444167-iphone-17-pro-anti-reflective-display/
 https://www.zoomit.ir/os/444140-half-windows-pcs-still-not-upgrade-windows-11/
 https://www.zoomit.ir/os/444190-galaxy-a33-a53-one-ui-8-update/
+https://www.zoomit.ir/pr/444178-bitpin-exchange-bitcoin/
 https://www.zoomit.ir/processor/444187-amd-quietly-reveals-cheapest-ryzen-ai-chip/
 https://www.zoomit.ir/shutter/444103-funny-encounters-of-animals-messing-with-cameras/
 https://www.zoomit.ir/social-network/444171-tiktok-songwriter-features-music-tab/
@@ -172,5 +178,7 @@ https://www.zoomit.ir/software-application/444173-new-youtube-feature-more-views
 https://www.zoomit.ir/space/443899-voyagers-could-be-detected-from-almost-one-light-year/
 https://www.zoomit.ir/tech-iran/444189-fmcg-platforms-actions-during-war/
 https://www.zoomit.ir/tech-iran/444191-gps-disruption-southeast-of-iran/
+https://www.zoomit.ir/tech/444174-samsung-boss-cleared-fraud-south-korea-court/
 https://www.zoomit.ir/zoomplus/444157-the-final-season-stranger-things-trailer/
 https://www.zoomit.ir/zoomplus/444162-hbo-confirms-last-of-us-season-3-2027/
+https://www.zoomit.ir/zoomplus/444204-squid-game-goodbye-trailer/
