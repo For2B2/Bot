@@ -1,6 +1,7 @@
 https://digiato.com/app/chrome-on-android-move-address-bar-down
 https://digiato.com/articles/worlds-funniest-country-humor-styles
 https://digiato.com/artificial-intelligence/meta-hires-two-more-high-profile-openai-researchers
+https://digiato.com/artificial-intelligence/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai
 https://digiato.com/car-news/car-front-brake-light-innovative-solution-reduce-traffic-accidents
 https://digiato.com/growth-hacking/samsung-boss-cleared-fraud-south-korea-top-court
 https://digiato.com/health/study-finds-no-increased-risk-from-vaccine-aluminum-exposure
@@ -60,6 +61,7 @@ https://www.bbc.com/persian/articles/c75rkwl9z4ro
 https://www.bbc.com/persian/articles/c98we9k0e47o
 https://www.bbc.com/persian/articles/cm20p291j2xo
 https://www.bbc.com/persian/articles/cnvm9ejle9mo
+https://www.bbc.com/persian/articles/cp8mr05296ro
 https://www.bbc.com/persian/articles/crl0w1n3105o
 https://www.bbc.com/persian/articles/cxw2z8xkgjro
 https://www.theverge.com/21302051/best-apple-airpods-deals
@@ -112,6 +114,9 @@ https://www.varzesh3.com/news/2139404/صدرنشین-برزیل-مقابل-نی�
 https://www.varzesh3.com/news/2139407/زلزله-دوباره-عربستان-در-فوتبال-اروپا
 https://www.varzesh3.com/news/2139409/25-سالگی-انتقالی-که-جهان-را-شوکه-کرد
 https://www.varzesh3.com/news/2139411/دیوار-صرب-جانشین-آقاسی-می-شود
+https://www.varzesh3.com/news/2139413/گواردیولا-آماده-کمک-به-بارسلونا-شد
+https://www.varzesh3.com/news/2139418/مارکو-باکیچ-به-پرسپولیس-پیوست
+https://www.varzesh3.com/news/2139419/راز-پیروزی-لهستان-مقابل-ایران-از-زبان-پیاتزا
 https://www.youtube.com/watch?v=-NNCca97v98
 https://www.youtube.com/watch?v=4KbrxIpQgkM
 https://www.youtube.com/watch?v=bMou1qUMHC4
@@ -119,7 +124,9 @@ https://www.zoomit.ir/car/444161-porsche-millionth-macan/
 https://www.zoomit.ir/gaming/444160-ea-sports-fc-26-features/
 https://www.zoomit.ir/health-medical/443950-psychology-adolescents-hall/
 https://www.zoomit.ir/mobile/444158-foldable-iphone-thickness-and-price-rumors/
+https://www.zoomit.ir/mobile/444159-nothing-phone-3-teardown-sturdy-repairable/
 https://www.zoomit.ir/os/444140-half-windows-pcs-still-not-upgrade-windows-11/
 https://www.zoomit.ir/shutter/444103-funny-encounters-of-animals-messing-with-cameras/
 https://www.zoomit.ir/space/443899-voyagers-could-be-detected-from-almost-one-light-year/
 https://www.zoomit.ir/zoomplus/444157-the-final-season-stranger-things-trailer/
+https://www.zoomit.ir/zoomplus/444162-hbo-confirms-last-of-us-season-3-2027/
