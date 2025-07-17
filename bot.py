@@ -9,8 +9,6 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
 
 # --- Enriched List of Persian Sources ---
-# I've added a 'type' to each source to customize the message.
-# I've also added more sources for varied content.
 SOURCES = {
     'جادی میرمیرانی': {
         'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCB2-_N3_a6utDbT0934gXnQ',
@@ -74,7 +72,10 @@ def get_thumbnail_url(entry):
         return entry.media_thumbnail[0]['url']
     # For many news RSS feeds (media:content)
     if 'media_content' in entry and entry.media_content:
-        return entry.media_content[0]['url']
+        # Ensure it's an image and not a video file
+        for media in entry.media_content:
+            if media.get('medium') == 'image' and 'url' in media:
+                return media['url']
     # Sometimes it's in links
     if 'links' in entry:
         for link in entry.links:
@@ -89,7 +90,6 @@ def send_to_telegram(message, photo_url=None):
     Otherwise, it sends a standard text message.
     """
     if photo_url:
-        # Use the sendPhoto endpoint
         api_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
         payload = {
             'chat_id': TELEGRAM_CHANNEL_ID,
@@ -98,7 +98,6 @@ def send_to_telegram(message, photo_url=None):
             'parse_mode': 'HTML'
         }
     else:
-        # Use the sendMessage endpoint as a fallback
         api_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
         payload = {
             'chat_id': TELEGRAM_CHANNEL_ID,
@@ -107,19 +106,24 @@ def send_to_telegram(message, photo_url=None):
         }
 
     try:
-        response = requests.post(api_url, data=payload, timeout=20) # Added timeout
+        response = requests.post(api_url, data=payload, timeout=20)
         response.raise_for_status()
-        print(f"Successfully sent message. Response: {response.json().get('ok')}")
-        # If sending photo fails, try sending as text
+        
+        # Check Telegram's response `ok` field
         if not response.json().get('ok'):
-             print("Sending photo failed, falling back to text message.")
-             send_to_telegram(message, photo_url=None)
+             print(f"Telegram API Error: {response.json().get('description')}")
+             # If sending photo failed, fall back to text message
+             if photo_url:
+                 print("Sending photo failed, falling back to text message.")
+                 send_to_telegram(message, photo_url=None)
+        else:
+             print("Successfully sent message to Telegram.")
 
     except requests.exceptions.RequestException as e:
-        print(f"Error sending to Telegram: {e}")
-        # If there was an error with the photo, try again with text only
+        print(f"Network error sending to Telegram: {e}")
+        # If there was a network error with the photo, try again with text only
         if photo_url:
-            print("Retrying as a text-only message.")
+            print("Retrying as a text-only message due to network error.")
             send_to_telegram(message, photo_url=None)
 
 
@@ -135,7 +139,6 @@ def process_feeds():
         print(f"--- Checking {source_name} ---")
         try:
             feed = feedparser.parse(feed_url)
-            # Process the 3 most recent entries to avoid spamming
             for entry in reversed(feed.entries[:3]):
                 link = entry.link
                 if link not in posted_links:
@@ -161,9 +164,10 @@ def process_feeds():
                     hashtag = '#' + source_name.replace(' ', '_')
 
                     # --- Create the engaging message ---
+                    # THIS BLOCK IS NOW FIXED
                     message = (
                         f"{intro}\n\n"
-                        f"ር title}\n\n" # THIS LINE IS FIXED
+                        f"<b>{title}</b>\n\n"
                         f"{summary}\n\n"
                         f"<a href='{link}'>{call_to_action}</a>\n\n"
                         f"{hashtag}"
