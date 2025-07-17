@@ -1,5 +1,6 @@
 https://digiato.com/app/chrome-on-android-move-address-bar-down
 https://digiato.com/app/google-ai-phone-calls-ai-mode-gemini-upgrade
+https://digiato.com/articles/mg-im5-and-im6-unveiled-big-step-in-electric-car-market
 https://digiato.com/articles/worlds-funniest-country-humor-styles
 https://digiato.com/artificial-intelligence/meta-hires-two-more-high-profile-openai-researchers
 https://digiato.com/artificial-intelligence/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai
@@ -11,6 +12,7 @@ https://digiato.com/health/study-finds-no-increased-risk-from-vaccine-aluminum-e
 https://digiato.com/iran-technology-news/iran-sues-starlink-itu
 https://digiato.com/iran-technology-news/tether-risk-for-iranian-users
 https://digiato.com/mobile/google-announces-pixel-10-launch-event
+https://digiato.com/mobile/huawei-at-the-top-of-china-smartphone-market-q2-2025
 https://digiato.com/security/china-uses-malware-to-spy-on-seized-phones
 https://techcrunch.com/2025/07/15/a-former-openai-engineer-describes-what-its-really-like-to-work-there/
 https://techcrunch.com/2025/07/15/ai-coding-tools-are-shifting-to-a-surprising-place-the-terminal/
@@ -125,14 +127,19 @@ https://www.varzesh3.com/news/2139419/راز-پیروزی-لهستان-مقاب�
 https://www.varzesh3.com/news/2139435/تمجید-ستاره-لهستان-از-ایران-آن-ها-جنگنده-هستند
 https://www.varzesh3.com/news/2139436/نبرد-دختران-هندبال-با-پرافتخارترین-های-آسیا
 https://www.varzesh3.com/news/2139437/ترکیه-۳-آلمان-۱-شگفتی-بزرگ-برای-بقا
+https://www.varzesh3.com/news/2139441/ادعای-جدید-سخنگوی-پرسپولیس-علیه-تراکتور
 https://www.varzesh3.com/news/2139449/سایت-لهستانی-لئون-قهرمان-ما-مقابل-ایران-بود
 https://www.varzesh3.com/news/2139450/لوگوی-جدید-پیکان-رونمایی-شد-عکس
 https://www.varzesh3.com/news/2139451/کاپیتانی-تیم-ملی-لهستان-برای-من-غم-انگیز-است
+https://www.varzesh3.com/news/2139462/سرمربی-پاکستان-صغر-سنی-تیم-خود-را-تایید-کرد
+https://www.varzesh3.com/news/2139463/داوران-وی-ای-آر-آموزش-جدید-دیدند
 https://www.youtube.com/watch?v=-NNCca97v98
 https://www.youtube.com/watch?v=4KbrxIpQgkM
 https://www.youtube.com/watch?v=bMou1qUMHC4
+https://www.zoomit.ir/ai-articles/444169-truthscan-ai-image-detector-prevent-ai-fraud/
 https://www.zoomit.ir/car/444161-porsche-millionth-macan/
 https://www.zoomit.ir/car/444163-gmc-hummer-ev-outsold-tesla-cybertruck/
+https://www.zoomit.ir/cryptocurrency/444170-cryptocurrencies-could-next-bitcoin/
 https://www.zoomit.ir/gaming/444160-ea-sports-fc-26-features/
 https://www.zoomit.ir/gaming/444165-apple-news-emoji-game-now-available/
 https://www.zoomit.ir/health-medical/443950-psychology-adolescents-hall/
@@ -142,6 +149,7 @@ https://www.zoomit.ir/mobile/444167-iphone-17-pro-anti-reflective-display/
 https://www.zoomit.ir/os/444140-half-windows-pcs-still-not-upgrade-windows-11/
 https://www.zoomit.ir/shutter/444103-funny-encounters-of-animals-messing-with-cameras/
 https://www.zoomit.ir/software-application/444166-beeper-plus-features-better-privacy-announcement/
+https://www.zoomit.ir/software-application/444173-new-youtube-feature-more-views/
 https://www.zoomit.ir/space/443899-voyagers-could-be-detected-from-almost-one-light-year/
 https://www.zoomit.ir/zoomplus/444157-the-final-season-stranger-things-trailer/
 https://www.zoomit.ir/zoomplus/444162-hbo-confirms-last-of-us-season-3-2027/
