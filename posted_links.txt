@@ -8,6 +8,7 @@ https://digiato.com/articles/worlds-funniest-country-humor-styles
 https://digiato.com/artificial-intelligence/meta-hires-two-more-high-profile-openai-researchers
 https://digiato.com/artificial-intelligence/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai
 https://digiato.com/car-news/car-front-brake-light-innovative-solution-reduce-traffic-accidents
+https://digiato.com/car-news/honda-prelude-near-production-prototype-unveiled
 https://digiato.com/car-news/tesla-model-3-plus-model-yl-china-price-war
 https://digiato.com/computers-hardware/a1-5-330-amd-goes-official
 https://digiato.com/gadgets/google-pixel-watch-4-will-reportedly-use-same-old-chipset
@@ -22,6 +23,7 @@ https://digiato.com/iran-technology-news/selling-gasoline-mixed-with-water-presi
 https://digiato.com/iran-technology-news/tether-risk-for-iranian-users
 https://digiato.com/mobile/google-announces-pixel-10-launch-event
 https://digiato.com/mobile/huawei-at-the-top-of-china-smartphone-market-q2-2025
+https://digiato.com/mobile/samsung-galaxy-s25-fe-tab-s11-ultra-renders-leak
 https://digiato.com/mobile/samsungs-upcoming-tri-fold-phone-name-leaked
 https://digiato.com/security/china-uses-malware-to-spy-on-seized-phones
 https://digiato.com/tech/nothing-phone-3-durability-test
@@ -78,6 +80,7 @@ https://www.bbc.com/news/articles/cy8k2nd7e9no
 https://www.bbc.com/persian/articles/c0rvdw7p0gko
 https://www.bbc.com/persian/articles/c1wp47gvpqno
 https://www.bbc.com/persian/articles/c23g5vn31ldo
+https://www.bbc.com/persian/articles/c4gkjd130nno
 https://www.bbc.com/persian/articles/c5y7681r6zjo
 https://www.bbc.com/persian/articles/c75rgn44kwyo
 https://www.bbc.com/persian/articles/c75rkwl9z4ro
@@ -85,6 +88,7 @@ https://www.bbc.com/persian/articles/c98we9k0e47o
 https://www.bbc.com/persian/articles/cm20p291j2xo
 https://www.bbc.com/persian/articles/cnvm9ejle9mo
 https://www.bbc.com/persian/articles/cp8mr05296ro
+https://www.bbc.com/persian/articles/cpwq92vg8kyo
 https://www.bbc.com/persian/articles/crl0w1n3105o
 https://www.bbc.com/persian/articles/cwygj30vdljo
 https://www.bbc.com/persian/articles/cxw2z8xkgjro
@@ -165,6 +169,9 @@ https://www.varzesh3.com/news/2139503/جمع-مدعی-های-قهرمانی-در
 https://www.varzesh3.com/news/2139518/کاپیتان-دو-فینال-دیگر-پیش-رو-داریم
 https://www.varzesh3.com/news/2139519/ستاره-چین-بعد-از-باخت-به-ایران-حالم-خوب-نیست
 https://www.varzesh3.com/news/2139520/پرسپولیس-2-آلانیا-1-اولین-برد-وحید-هاشمیان
+https://www.varzesh3.com/news/2139533/اعتراف-ویتال-هینن-بعد-از-شکست-مقابل-ایران
+https://www.varzesh3.com/news/2139534/شرط-انتقال-مهاجم-استقلال-به-لیگ-ازبکستان
+https://www.varzesh3.com/news/2139535/رونمایی-از-مجسمه-وینیسیوس-در-زادگاهش-عکس
 https://www.youtube.com/watch?v=-NNCca97v98
 https://www.youtube.com/watch?v=4KbrxIpQgkM
 https://www.youtube.com/watch?v=bMou1qUMHC4
@@ -175,7 +182,9 @@ https://www.zoomit.ir/car/444161-porsche-millionth-macan/
 https://www.zoomit.ir/car/444163-gmc-hummer-ev-outsold-tesla-cybertruck/
 https://www.zoomit.ir/car/444176-xiaomi-yu7-max-test-falls-official-claims/
 https://www.zoomit.ir/car/444195-gm-talks-new-camaro-possibility/
+https://www.zoomit.ir/car/444200-uber-lucid-nuro-robotaxi-deal-investment/
 https://www.zoomit.ir/cryptocurrency/444170-cryptocurrencies-could-next-bitcoin/
+https://www.zoomit.ir/cryptocurrency/444210-north-korean-hackers-record-crypto-thefts-2025/
 https://www.zoomit.ir/gaming/444160-ea-sports-fc-26-features/
 https://www.zoomit.ir/gaming/444165-apple-news-emoji-game-now-available/
 https://www.zoomit.ir/gaming/444175-street-fighter-6-sagat-joins-roster/
@@ -184,6 +193,7 @@ https://www.zoomit.ir/health-medical/443950-psychology-adolescents-hall/
 https://www.zoomit.ir/mobile/444158-foldable-iphone-thickness-and-price-rumors/
 https://www.zoomit.ir/mobile/444159-nothing-phone-3-teardown-sturdy-repairable/
 https://www.zoomit.ir/mobile/444167-iphone-17-pro-anti-reflective-display/
+https://www.zoomit.ir/mobile/444199-tecno-phantom-ultimate-g-fold-concept/
 https://www.zoomit.ir/os/444140-half-windows-pcs-still-not-upgrade-windows-11/
 https://www.zoomit.ir/os/444190-galaxy-a33-a53-one-ui-8-update/
 https://www.zoomit.ir/pr/444178-bitpin-exchange-bitcoin/
