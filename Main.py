@@ -380,29 +380,79 @@ def format_news_telegram_message(original_title, source_name, source_info, ai_da
     
     return f"{header}{title_section}{summary_section}{eli5_section}{doi_section}{link_section}\n\n{tags_section}"
     
-def send_to_telegram(message_text, image_url=None):
-    # Your Telegram sender function remains the same
+def send_to_telegram(message_text, ai_data, image_url=None):
+    """
+    Sends a message to Telegram.
+    If an image_url is provided, it sends the photo with a catchy_title caption first,
+    then sends the full message_text in a separate message.
+    Otherwise, it sends a single text-only message.
+    """
     if not TELEGRAM_TOKEN or not TELEGRAM_CHANNEL_ID:
         print("ERROR: TELEGRAM_TOKEN and TELEGRAM_CHANNEL_ID must be set.")
         return
+
+    # --- NEW LOGIC FOR POSTS WITH PHOTOS ---
     if image_url:
-        print(f"  Sending photo to Telegram...")
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
-        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'photo': image_url, 'caption': message_text, 'parse_mode': 'HTML'}
+        print("  Sending multipart message (photo + text)...")
+        
+        # Extract the catchy title for the photo's caption. Fallback to a generic title.
+        caption = ai_data.get('catchy_title', "خبر علمی")
+
+        # --- Part 1: Send the Photo with the Caption ---
+        photo_api_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
+        photo_payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'photo': image_url,
+            'caption': caption, # Caption is just the catchy title
+            'parse_mode': 'HTML'
+        }
+        
+        try:
+            photo_response = requests.post(photo_api_url, data=photo_payload, timeout=30)
+            photo_response.raise_for_status()
+            print(f"  ✅ Successfully sent photo with caption: '{caption}'")
+
+            # --- Part 2: Send the Full Text Message Afterward ---
+            # The full message_text is sent here, without truncation.
+            text_api_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+            text_payload = {
+                'chat_id': TELEGRAM_CHANNEL_ID,
+                'text': message_text,
+                'parse_mode': 'HTML',
+                'disable_web_page_preview': True
+            }
+            text_response = requests.post(text_api_url, data=text_payload, timeout=30)
+            text_response.raise_for_status()
+            print("  ✅ Successfully sent accompanying full text.")
+
+        except requests.exceptions.RequestException as e:
+            print(f"  ❌ Error sending multipart post to Telegram: {e}")
+            # Check which response exists to provide better error details
+            if 'photo_response' in locals() and photo_response.text:
+                print(f"  -> Photo Response: {photo_response.text}")
+            if 'text_response' in locals() and text_response.text:
+                 print(f"  -> Text Response: {text_response.text}")
+
+    # --- ORIGINAL LOGIC FOR TEXT-ONLY POSTS ---
     else:
         print("  Sending text-only message to Telegram...")
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'text': message_text, 'parse_mode': 'HTML', 'disable_web_page_preview': True}
-    
-    try:
-        response = requests.post(url, data=payload, timeout=30)
-        response.raise_for_status()
-        print("  Successfully sent post to Telegram.")
-    except requests.exceptions.RequestException as e:
-        print(f"  Error sending post to Telegram: {e}")
-        if 'response' in locals() and response.text:
-            print(f"  -> Telegram response: {response.text}")
-
+        # We still keep the 4096 slice here as a safeguard for very long text-only posts.
+        payload = {
+            'chat_id': TELEGRAM_CHANNEL_ID,
+            'text': message_text[:4096],
+            'parse_mode': 'HTML',
+            'disable_web_page_preview': True
+        }
+        
+        try:
+            response = requests.post(url, data=payload, timeout=30)
+            response.raise_for_status()
+            print("  ✅ Successfully sent text-only post to Telegram.")
+        except requests.exceptions.RequestException as e:
+            print(f"  ❌ Error sending post to Telegram: {e}")
+            if 'response' in locals() and response.text:
+                print(f"  -> Telegram response: {response.text}")
 
 # ==============================================================================
 # --- 5. MAIN EXECUTION LOGIC (MODIFIED) ---
@@ -478,7 +528,7 @@ def process_feeds():
 
                     if message:
                         image_url = content_data.get('image_url')
-                        send_to_telegram(message, image_url=image_url)
+                        send_to_telegram(message, ai_data, image_url=image_url)
                         posted_links.add(link_to_check)
                         new_links_found = True
                         break 
