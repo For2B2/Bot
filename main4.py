@@ -476,7 +476,7 @@ def process_feeds():
             random.shuffle(potential_entries)
 
             for entry in potential_entries:
-                link_to_check = entry.get('id', entry.link)
+                link_to_check = entry.link
                 if link_to_check in posted_links:
                     continue
 
