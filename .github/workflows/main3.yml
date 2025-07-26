@@ -3,7 +3,7 @@ name: Main3 - Schedule
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1,13,21 * * *' # 9am, 5pm, 9pm EST/EDT (runs on UTC)
+    - cron: '10 1,13,21 * * *' # 9am, 5pm, 9pm EST/EDT (runs on UTC)
 
 concurrency:
   group: ${{ github.workflow }}
