@@ -106,7 +106,7 @@ SOURCES = {
     }
 }
 
-POSTED_LINKS_FILE = 'posted_links.txt'
+POSTED_LINKS_FILE = 'posted_links3.txt'
 
 # ==============================================================================
 # --- Utility & Fetching Functions (Unchanged) ---
