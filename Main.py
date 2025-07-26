@@ -388,7 +388,7 @@ def send_to_telegram(message_text, image_url=None):
     if image_url:
         print(f"  Sending photo to Telegram...")
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
-        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'photo': image_url, 'caption': message_text[:1024], 'parse_mode': 'HTML'}
+        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'photo': image_url, 'caption': message_text, 'parse_mode': 'HTML'}
     else:
         print("  Sending text-only message to Telegram...")
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
