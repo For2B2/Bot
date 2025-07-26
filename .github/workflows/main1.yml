@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  run-bot-1:
+  run-main-1:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -38,8 +38,8 @@ jobs:
       - name: Pull latest changes before commit
         run: git pull origin ${{ github.ref_name }} --rebase
 
-      - name: Commit and push Bot 1 history
+      - name: Commit and push Main1 history
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Bot 1: Update posted links history"
+          commit_message: "Main1: Update posted links history"
           file_pattern: "posted_links1.txt"
