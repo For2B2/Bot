@@ -1,0 +1,45 @@
+name: Main3 - Schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1,13,21 * * *' # 9am, 5pm, 9pm EST/EDT (runs on UTC)
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  run-main-3:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Main3 Script
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main3.py
+
+      - name: Pull latest changes before commit
+        run: git pull origin ${{ github.ref_name }} --rebase
+
+      - name: Commit and push Main3 history
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Main3: Update posted links history"
+          file_pattern: "posted_links3.txt"
