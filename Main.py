@@ -392,7 +392,7 @@ def send_to_telegram(message_text, image_url=None):
     else:
         print("  Sending text-only message to Telegram...")
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'text': message_text[:4096], 'parse_mode': 'HTML', 'disable_web_page_preview': True}
+        payload = {'chat_id': TELEGRAM_CHANNEL_ID, 'text': message_text, 'parse_mode': 'HTML', 'disable_web_page_preview': True}
     
     try:
         response = requests.post(url, data=payload, timeout=30)
