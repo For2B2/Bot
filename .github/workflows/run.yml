@@ -1,7 +1,7 @@
 on:
   schedule:
     # Runs every 5 minutes. (15 mins is recommended for stability)
-    - cron: '*/30 * * * *'
+    - cron: '*/600 * * * *'
   workflow_dispatch:
     # Allows you to run this workflow manually from the Actions tab
 
@@ -32,7 +32,7 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-        run: python bot.py
+        run: python Main.py
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v4
